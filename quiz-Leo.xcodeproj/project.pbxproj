@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2AA142B1A9BE1FE00289617 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA142A1A9BE1FE00289617 /* main.m */; };
+		B2AA142E1A9BE1FE00289617 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA142D1A9BE1FE00289617 /* AppDelegate.m */; };
+		B2AA14311A9BE1FE00289617 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA14301A9BE1FE00289617 /* ViewController.m */; };
+		B2AA14341A9BE1FE00289617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AA14321A9BE1FE00289617 /* Main.storyboard */; };
+		B2AA14361A9BE1FE00289617 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AA14351A9BE1FE00289617 /* Images.xcassets */; };
+		B2AA14391A9BE1FE00289617 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2AA14371A9BE1FE00289617 /* LaunchScreen.xib */; };
+		B2AA14451A9BE1FE00289617 /* quiz_LeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA14441A9BE1FE00289617 /* quiz_LeoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2AA143F1A9BE1FE00289617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2AA141D1A9BE1FE00289617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2AA14241A9BE1FE00289617;
+			remoteInfo = "quiz-Leo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2AA14251A9BE1FE00289617 /* quiz-Leo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quiz-Leo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AA14291A9BE1FE00289617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AA142A1A9BE1FE00289617 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2AA142C1A9BE1FE00289617 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2AA142D1A9BE1FE00289617 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2AA142F1A9BE1FE00289617 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2AA14301A9BE1FE00289617 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2AA14331A9BE1FE00289617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2AA14351A9BE1FE00289617 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2AA14381A9BE1FE00289617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B2AA143E1A9BE1FE00289617 /* quiz-LeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quiz-LeoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AA14431A9BE1FE00289617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2AA14441A9BE1FE00289617 /* quiz_LeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quiz_LeoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2AA14221A9BE1FE00289617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA143B1A9BE1FE00289617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2AA141C1A9BE1FE00289617 = {
+			isa = PBXGroup;
+			children = (
+				B2AA14271A9BE1FE00289617 /* quiz-Leo */,
+				B2AA14411A9BE1FE00289617 /* quiz-LeoTests */,
+				B2AA14261A9BE1FE00289617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2AA14261A9BE1FE00289617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA14251A9BE1FE00289617 /* quiz-Leo.app */,
+				B2AA143E1A9BE1FE00289617 /* quiz-LeoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2AA14271A9BE1FE00289617 /* quiz-Leo */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA142C1A9BE1FE00289617 /* AppDelegate.h */,
+				B2AA142D1A9BE1FE00289617 /* AppDelegate.m */,
+				B2AA142F1A9BE1FE00289617 /* ViewController.h */,
+				B2AA14301A9BE1FE00289617 /* ViewController.m */,
+				B2AA14321A9BE1FE00289617 /* Main.storyboard */,
+				B2AA14351A9BE1FE00289617 /* Images.xcassets */,
+				B2AA14371A9BE1FE00289617 /* LaunchScreen.xib */,
+				B2AA14281A9BE1FE00289617 /* Supporting Files */,
+			);
+			path = "quiz-Leo";
+			sourceTree = "<group>";
+		};
+		B2AA14281A9BE1FE00289617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA14291A9BE1FE00289617 /* Info.plist */,
+				B2AA142A1A9BE1FE00289617 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2AA14411A9BE1FE00289617 /* quiz-LeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA14441A9BE1FE00289617 /* quiz_LeoTests.m */,
+				B2AA14421A9BE1FE00289617 /* Supporting Files */,
+			);
+			path = "quiz-LeoTests";
+			sourceTree = "<group>";
+		};
+		B2AA14421A9BE1FE00289617 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA14431A9BE1FE00289617 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2AA14241A9BE1FE00289617 /* quiz-Leo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AA14481A9BE1FE00289617 /* Build configuration list for PBXNativeTarget "quiz-Leo" */;
+			buildPhases = (
+				B2AA14211A9BE1FE00289617 /* Sources */,
+				B2AA14221A9BE1FE00289617 /* Frameworks */,
+				B2AA14231A9BE1FE00289617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quiz-Leo";
+			productName = "quiz-Leo";
+			productReference = B2AA14251A9BE1FE00289617 /* quiz-Leo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2AA143D1A9BE1FE00289617 /* quiz-LeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AA144B1A9BE1FE00289617 /* Build configuration list for PBXNativeTarget "quiz-LeoTests" */;
+			buildPhases = (
+				B2AA143A1A9BE1FE00289617 /* Sources */,
+				B2AA143B1A9BE1FE00289617 /* Frameworks */,
+				B2AA143C1A9BE1FE00289617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2AA14401A9BE1FE00289617 /* PBXTargetDependency */,
+			);
+			name = "quiz-LeoTests";
+			productName = "quiz-LeoTests";
+			productReference = B2AA143E1A9BE1FE00289617 /* quiz-LeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2AA141D1A9BE1FE00289617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Leonardo Rodrigues de Morais Brunassi";
+				TargetAttributes = {
+					B2AA14241A9BE1FE00289617 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B2AA143D1A9BE1FE00289617 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B2AA14241A9BE1FE00289617;
+					};
+				};
+			};
+			buildConfigurationList = B2AA14201A9BE1FE00289617 /* Build configuration list for PBXProject "quiz-Leo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2AA141C1A9BE1FE00289617;
+			productRefGroup = B2AA14261A9BE1FE00289617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2AA14241A9BE1FE00289617 /* quiz-Leo */,
+				B2AA143D1A9BE1FE00289617 /* quiz-LeoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2AA14231A9BE1FE00289617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA14341A9BE1FE00289617 /* Main.storyboard in Resources */,
+				B2AA14391A9BE1FE00289617 /* LaunchScreen.xib in Resources */,
+				B2AA14361A9BE1FE00289617 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA143C1A9BE1FE00289617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2AA14211A9BE1FE00289617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA14311A9BE1FE00289617 /* ViewController.m in Sources */,
+				B2AA142E1A9BE1FE00289617 /* AppDelegate.m in Sources */,
+				B2AA142B1A9BE1FE00289617 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA143A1A9BE1FE00289617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA14451A9BE1FE00289617 /* quiz_LeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2AA14401A9BE1FE00289617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2AA14241A9BE1FE00289617 /* quiz-Leo */;
+			targetProxy = B2AA143F1A9BE1FE00289617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2AA14321A9BE1FE00289617 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA14331A9BE1FE00289617 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2AA14371A9BE1FE00289617 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA14381A9BE1FE00289617 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2AA14461A9BE1FE00289617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2AA14471A9BE1FE00289617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2AA14491A9BE1FE00289617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "quiz-Leo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2AA144A1A9BE1FE00289617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "quiz-Leo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2AA144C1A9BE1FE00289617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "quiz-LeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quiz-Leo.app/quiz-Leo";
+			};
+			name = Debug;
+		};
+		B2AA144D1A9BE1FE00289617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "quiz-LeoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quiz-Leo.app/quiz-Leo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2AA14201A9BE1FE00289617 /* Build configuration list for PBXProject "quiz-Leo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA14461A9BE1FE00289617 /* Debug */,
+				B2AA14471A9BE1FE00289617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2AA14481A9BE1FE00289617 /* Build configuration list for PBXNativeTarget "quiz-Leo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA14491A9BE1FE00289617 /* Debug */,
+				B2AA144A1A9BE1FE00289617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2AA144B1A9BE1FE00289617 /* Build configuration list for PBXNativeTarget "quiz-LeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA144C1A9BE1FE00289617 /* Debug */,
+				B2AA144D1A9BE1FE00289617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2AA141D1A9BE1FE00289617 /* Project object */;
+}
