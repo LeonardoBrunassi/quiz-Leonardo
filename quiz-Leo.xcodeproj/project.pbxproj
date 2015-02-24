@@ -168,9 +168,11 @@
 				TargetAttributes = {
 					B2AA14241A9BE1FE00289617 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = PWHZ7MYK3K;
 					};
 					B2AA143D1A9BE1FE00289617 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = PWHZ7MYK3K;
 						TestTargetID = B2AA14241A9BE1FE00289617;
 					};
 				};
@@ -365,6 +367,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -376,6 +380,7 @@
 				INFOPLIST_FILE = "quiz-LeoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quiz-Leo.app/quiz-Leo";
 			};
 			name = Debug;
@@ -384,6 +389,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -391,6 +398,7 @@
 				INFOPLIST_FILE = "quiz-LeoTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quiz-Leo.app/quiz-Leo";
 			};
 			name = Release;
@@ -414,6 +422,7 @@
 				B2AA144A1A9BE1FE00289617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2AA144B1A9BE1FE00289617 /* Build configuration list for PBXNativeTarget "quiz-LeoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				B2AA144D1A9BE1FE00289617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
